@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    tools:context="com.senr.ichra.dom011.CSCPage">
+
+    <ListView
+        android:id="@+id/ListViewCSC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:cacheColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/buttoMore"
+        android:onClick="onClickButtonMore"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ListViewCSC"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp"
+        android:background="#11000000"
+        android:clickable="true"
+        android:text="MORE"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="117dp" />
+</RelativeLayout>

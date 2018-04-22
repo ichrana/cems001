@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Guardian"
+            android:icon="@drawable/ic_guardian"
+            android:title="Guardian" />
+
+        <item
+            android:id="@+id/nav_EmergencyNO"
+            android:icon="@drawable/ic_emergencyno"
+            android:title="Emergency Numbers" />
+
+        <item
+            android:id="@+id/nav_ImportantMal"
+            android:icon="@drawable/ic_importantmal"
+            android:title="Important Malfunctions" />
+
+    </group>
+
+    <item android:title="Places">
+        <menu>
+            <item
+                android:id="@+id/nav_CSC"
+                android:icon="@drawable/ic_csc"
+                android:title="Car Service Centers" />
+            <item
+                android:id="@+id/nav_DSchools"
+                android:icon="@drawable/ic_dschools"
+                android:title="Driving Schools" />
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_SignOut"
+                android:icon="@drawable/ic_signout"
+                android:title="Sign Out" />
+
+        </menu>
+    </item>
+
+
+
+
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dark"
+    tools:context="com.senr.ichra.dom011.ListGuardianActivity">
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="40dp"
+        android:background="#11000000"
+        android:clickable="true"
+        android:text="Add Guardian"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:onClick="onClickButtonAddGuardian"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <ListView
+        android:id="@+id/ListViewGuardian"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#FFFFFF"
+        android:cacheColorHint="#FFFFFF"
+        />
+
+</LinearLayout>

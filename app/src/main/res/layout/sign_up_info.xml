@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    tools:context="com.senr.ichra.dom011.SignUpInfoPage">
+
+    <EditText
+        android:id="@+id/editTextUserNameSign"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_person_white_24dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/editTextUserEmailSign"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editTextUserNameSign"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editTextUserNameSign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="145dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_person_white_24dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/editTextPassSign"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editTextUserEmailSign"
+        android:layout_alignStart="@+id/editTextUserEmailSign"
+        android:layout_below="@+id/editTextUserEmailSign"
+        android:layout_marginTop="16dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_lock_white_24dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+
+        android:textSize="18dp" />
+
+
+    <EditText
+        android:id="@+id/editTextPhoneSign"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editTextPassSign"
+        android:layout_alignStart="@+id/editTextPassSign"
+        android:layout_below="@+id/editTextPassSign"
+        android:layout_marginTop="12dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_person_white_24dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/buttonSign"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/editTextPhoneSign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="#11000000"
+        android:clickable="true"
+        android:text="Create Account"
+        android:textColor="#fff"
+        android:textSize="13sp" />
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="Sign up information"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textColorHint="#FFFFFF"
+        />
+
+  </RelativeLayout>

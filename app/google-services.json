@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "50235094405",
+    "firebase_url": "https://cems001-dc318.firebaseio.com",
+    "project_id": "cems001-dc318",
+    "storage_bucket": "cems001-dc318.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50235094405:android:97b63bd6c60898eb",
+        "android_client_info": {
+          "package_name": "com.senr.ichra.dom011"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50235094405-5aoff68gt3hv9kppcsml2iadv55mtimh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxciqYEN5E3tTPRYi7bAUNU9HserjrhKc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
